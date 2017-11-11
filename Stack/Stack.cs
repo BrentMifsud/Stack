@@ -8,11 +8,12 @@ namespace Stack
     class Stack
     {
         /// <summary>
-        /// The first node in the stack
+        /// The start of the Stack
         /// </summary>
         private ListItem firstItem;
+        
         /// <summary>
-        /// Size of the stack
+        /// The number of items in the stack
         /// </summary>
         private int size;
 

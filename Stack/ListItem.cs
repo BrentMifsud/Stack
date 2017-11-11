@@ -9,7 +9,7 @@
         private ListItem nextItem;
 
         /// <summary>
-        /// Constructor for a node
+        /// Constructor for a ListItem
         /// </summary>
         /// <param name="data"></param>
         /// <param name="nextItem"></param>
@@ -20,7 +20,7 @@
         }
 
         /// <summary>
-        /// Property for Node Data
+        /// Property for ListItem Data
         /// </summary>
         public object Data
         {
@@ -29,7 +29,7 @@
         }
 
         /// <summary>
-        /// Property for Next Node Object
+        /// Property for Next ListItem Object
         /// </summary>
         public ListItem NextItem
         {
